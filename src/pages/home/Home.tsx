@@ -1,3 +1,5 @@
+import capaImage from "../../assets/capa2.png"
+
 function Home() {
   return (
     <>
@@ -5,11 +7,12 @@ function Home() {
         <div className="container grid grid-cols-2 text-white">
           <div className="flex flex-col gap-4 items-center justify-center py-4">
             <h2 className="text-5xl font-bold">
-              Seja Bem Vinde!
+              Blog da Aiyra!
             </h2>
 
             <p className="text-xl">
-              Expresse aqui seus pensamentos e opiniões
+              Aqui vou falar sobre minha vida na tecnologia e meus aprendizados na
+              Generation Brasil.
             </p>
 
             <div className="flex justify-around gap-4">
@@ -17,14 +20,14 @@ function Home() {
                 className="rounded text-white
                 border-white border-solid border-2 py-2 px-4"
               >
-                Nova Postagem
+                Confira minhas postagens
               </div>
             </div>
           </div>
 
           <div className="flex justify-center">
             <img
-              src="https://i.imgur.com/fyfri1v.png"
+              src={capaImage}
               alt="Imagem Página Home"
               className="w-2/3"
             />
