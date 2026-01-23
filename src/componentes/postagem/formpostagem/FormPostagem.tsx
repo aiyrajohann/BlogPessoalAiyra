@@ -95,7 +95,7 @@ function FormPostagem() {
             ...postagem,
             [e.target.name]: e.target.value,
             tema: tema,
-            usuario: usuario,
+            usuario: { id: usuario.id, nome: usuario.nome, usuario: usuario.usuario, senha: usuario.senha, foto: usuario.foto, postagem: null },
         });
     }
 

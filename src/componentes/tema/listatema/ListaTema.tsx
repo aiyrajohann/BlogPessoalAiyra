@@ -24,16 +24,14 @@ function ListaTemas() {
 
     useEffect(()=>{
         buscarTemas()
-    },[temas.length])
+    },[])
    
     async function buscarTemas(){
         try{
             setIsLoading(true)
 
             await buscar(`/temas` , setTemas, {
-                headers:{
-                    Authorization: token
-                }
+                Authorization: token
             })
 
         }catch(error : any){

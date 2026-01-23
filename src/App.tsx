@@ -1,17 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
+import Footer from "./componentes/footer/Footer";
+import Navbar from "./componentes/navbar/Navbar";
 import Home from "./pages/home/Home";
 import Cadastro from "./pages/cadastro/Cadastro";
 import Login from "./pages/login/Login";
 import { AuthProvider } from "./contexts/AuthContext";
-import ListaTemas from "./components/tema/listatemas/ListaTema";
-import FormTema from "./components/tema/formtema/FormTema";
-import DeletarTema from "./components/tema/deletartema/DeletarTema";
-import FormPostagem from "./components/postagem/formpostagem/FormPostagem";
-import ListaPostagens from "./components/postagem/listapostagem/ListaPostagens";
-import DeletarPostagem from "./components/postagem/deletarpostagem/DeletarPostagem";
+import ListaTemas from "./componentes/tema/listatema/ListaTema";
+import FormTema from "./componentes/tema/formtema/FormTema";
+import DeletarTema from "./componentes/tema/deletartema/DeletarTema";
+import FormPostagem from "./componentes/postagem/formpostagem/FormPostagem";
+import ListaPostagens from "./componentes/postagem/listapostagem/ListaPostagens";
+import DeletarPostagem from "./componentes/postagem/deletarpostagem/DeletarPostagem";
 
 function App() {
   return (
